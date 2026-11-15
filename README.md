@@ -19,6 +19,12 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 - Wireless control and built-in effects through the WLED mobile app
 - Handmade black compressed-foam structure with acrylic diffusers
 
+## System Overview
+
+![NOVA TRIANGLES system overview](documentation/system-overview.svg)
+
+The diagram summarizes the system architecture. It is a conceptual overview, not a pin-by-pin wiring schematic.
+
 ## Hardware
 
 | Part | Details |

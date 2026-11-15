@@ -7,7 +7,7 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 
 ## Project Preview
 
-![NOVA TRIANGLES – final illuminated build](images/final-result.jpg)
+![NOVA TRIANGLES – final illuminated build](images/01-final-result.jpg)
 
 ## Highlights
 
@@ -39,7 +39,7 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 - Number of panels: 10
 - Triangle side length: 20 cm
 - Foam strip width: 2.5 cm
-- Frame strips were cut to different lengths to account for the foam thickness and the triangular frame geometry.
+- The three frame-strip lengths were calculated as: 20 cm, (20 cm − foam thickness), and (20 cm − 2 × foam thickness), according to the build measurements.
 - Acrylic pieces form the front light-diffusing surfaces.
 
 ## Build Documentation
@@ -48,13 +48,13 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 
 The black compressed foam was measured and cut to create the triangular frame and its supporting strips.
 
-![Foam cutting and frame preparation](images/foam-construction.jpg)
+![Foam cutting and frame preparation](images/02-foam-fabrication.jpg)
 
 ### 2. Acrylic panel preparation
 
 Acrylic sheet pieces were cut and arranged to form the triangular front panels.
 
-![Acrylic panel preparation](images/acrylic-panels.jpg)
+![Acrylic panel preparation](images/03-acrylic-preparation.jpg)
 
 ### 3. LED installation and assembly
 
@@ -68,7 +68,7 @@ An ESP8266 runs WLED. The WLED mobile app is used to change colours, brightness,
 
 The adapter currently used is rated **5 V / 0.7 A**. A **5 V / 3 A** supply is the planned upgrade, not a confirmed final installation.
 
-The required supply capacity must be checked against the actual LED current at the intended brightness and effects. A 3 A supply should not be assumed sufficient for all 180 LEDs at full-white brightness. Use suitable power distribution, keep the ESP8266 and LED-strip grounds common, and avoid routing the full strip current through the ESP8266 board.
+The required supply capacity must be checked against the actual LED current at the intended brightness and effects. A 3 A supply should not be assumed sufficient for all 180 LEDs at full-white brightness. The planned 3 A adapter is an upgrade target, not a verified full-load supply. Use suitable power distribution, keep the ESP8266 and LED-strip grounds common, and avoid routing the full strip current through the ESP8266 board.
 
 ## Future Improvements
 

@@ -7,7 +7,7 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 
 ## Project Preview
 
-![NOVA TRIANGLES – original final illuminated build](images/final-result.jpg)
+![NOVA TRIANGLES – original final illuminated build](images/Nova Triangles DIY LED Infographic.png)
 
 ## Highlights
 

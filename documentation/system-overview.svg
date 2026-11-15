@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#15152a"/></linearGradient><linearGradient id="cyan" x2="1"><stop stop-color="#28c9f4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+<rect width="1400" height="900" fill="url(#bg)"/>
+<text x="80" y="95" fill="#42dcff" font-family="Arial" font-size="52" font-weight="bold">NOVA TRIANGLES</text>
+<text x="82" y="145" fill="#dbe7f5" font-family="Arial" font-size="25">SYSTEM OVERVIEW • DIY SMART MODULAR RGB LIGHTING</text>
+<g transform="translate(90 220)">
+<rect width="520" height="470" rx="28" fill="#101d30" stroke="#42dcff" stroke-width="3"/>
+<text x="36" y="60" fill="#fff" font-family="Arial" font-size="30" font-weight="bold">10 TRIANGULAR PANELS</text>
+<g fill="#172c43" stroke="#ff9a50" stroke-width="5">
+<path d="M70 170 L150 35 L230 170 Z"/><path d="M230 170 L310 35 L390 170 Z"/><path d="M390 170 L470 35 L550 170 Z" transform="translate(-20 0)"/>
+<path d="M150 310 L230 175 L310 310 Z"/><path d="M310 310 L390 175 L470 310 Z"/>
+</g>
+<text x="36" y="385" fill="#fff" font-family="Arial" font-size="27">20 cm side length</text>
+<text x="36" y="430" fill="#9eb4ca" font-family="Arial" font-size="22">Black compressed foam + acrylic diffuser</text>
+</g>
+<g transform="translate(700 235)">
+<rect width="610" height="185" rx="24" fill="#101d30" stroke="#42dcff" stroke-width="3"/>
+<text x="38" y="55" fill="#42dcff" font-family="Arial" font-size="28" font-weight="bold">ESP8266</text>
+<text x="38" y="105" fill="#fff" font-family="Arial" font-size="25">Runs WLED firmware</text>
+<text x="38" y="150" fill="#9eb4ca" font-family="Arial" font-size="21">Wireless control via WLED mobile app</text>
+<path d="M305 185 V245" stroke="#42dcff" stroke-width="5" fill="none"/><path d="M293 232 L305 248 L317 232" stroke="#42dcff" stroke-width="5" fill="none"/>
+<rect y="250" width="610" height="190" rx="24" fill="#101d30" stroke="#ff9a50" stroke-width="3"/>
+<text x="38" y="305" fill="#ffad69" font-family="Arial" font-size="28" font-weight="bold">WS2812B LED STRIP</text>
+<text x="38" y="355" fill="#fff" font-family="Arial" font-size="25">3 m • 60 LEDs/m • 180 LEDs total</text>
+<text x="38" y="405" fill="#9eb4ca" font-family="Arial" font-size="22">18 LEDs allocated per triangle</text>
+<path d="M305 440 V500" stroke="#42dcff" stroke-width="5" fill="none"/><path d="M293 487 L305 503 L317 487" stroke="#42dcff" stroke-width="5" fill="none"/>
+<rect y="505" width="610" height="145" rx="24" fill="#101d30" stroke="#8b5cf6" stroke-width="3"/>
+<text x="38" y="560" fill="#c4b5fd" font-family="Arial" font-size="27" font-weight="bold">5V POWER</text>
+<text x="38" y="610" fill="#fff" font-family="Arial" font-size="22">Current adapter: 0.7A • Planned upgrade: 3A*</text>
+</g>
+<text x="90" y="790" fill="#9eb4ca" font-family="Arial" font-size="20">*3A is a planned upgrade, not a verified full-load supply. Confirm actual current demand before operation.</text>
+<text x="90" y="840" fill="#42dcff" font-family="Arial" font-size="22">ESP8266 ground and LED power ground must be common; use suitable power distribution.</text>
+</svg>

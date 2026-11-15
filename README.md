@@ -7,7 +7,7 @@ The project combines DIY fabrication, basic enclosure design, addressable LEDs, 
 
 ## Project Preview
 
-![NOVA TRIANGLES – final illuminated build](images/01-final-result.jpg)
+![NOVA TRIANGLES system overview](documentation/system-overview.svg)
 
 ## Highlights
 
@@ -54,13 +54,13 @@ The diagram summarizes the system architecture. It is a conceptual overview, not
 
 The black compressed foam was measured and cut to create the triangular frame and its supporting strips.
 
-![Foam cutting and frame preparation](images/02-foam-fabrication.jpg)
+_Foam fabrication photo will be added to the project gallery._
 
 ### 2. Acrylic panel preparation
 
 Acrylic sheet pieces were cut and arranged to form the triangular front panels.
 
-![Acrylic panel preparation](images/03-acrylic-preparation.jpg)
+_Acrylic preparation photo will be added to the project gallery._
 
 ### 3. LED installation and assembly
 
